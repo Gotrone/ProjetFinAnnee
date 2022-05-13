@@ -148,6 +148,6 @@
     header('Location: editionProfil.php?success');
 
     include '../php/logFunction.php';
-    addLog("Modification: Edition du profil: Login:" . $_POST['login'] . " Status:" . $_POST['status']);
+    addLog("Modification: Edition du profil: Login:" . $_POST['login'] . " Status:" . $newUser[12]);
     exit();
 ?>

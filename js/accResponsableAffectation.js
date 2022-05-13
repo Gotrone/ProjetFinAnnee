@@ -16,8 +16,9 @@ function envoie(){
       cache: false,
       processData: false,
       enctype: 'multipart/form-data',
-      success: function(result){
-          message.innerHTML = result;
+      success: function(responce){
+        if (responce == "") message.innerHTML = "Success: Les étudiants ont était affecter";
+        else message.innerHTML = responce;
         }
       });
   }
