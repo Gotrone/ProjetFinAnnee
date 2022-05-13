@@ -3,7 +3,7 @@
         header('Location:../portail.php');
     }
 
-    include '../php/logFunction.php';
+
 
     /*Récupération de toutes les ligne du fichier*/
     if ($file = fopen('../membres/data/utilisateur.csv', "a+")) {
@@ -49,7 +49,10 @@
       echo "Inscription réussit";
       fclose($file);
       /*Ajoute un log*/
+      include '../php/logFunction.php';
+      include '../php/notification.php';
       addLog("Inscription: Nouveau utilisateur: login: " . $_POST['login'] . " Status: " . $_POST['status']);
+      addNotification($id, "Bienvenue " . $_POST['login']);
   } else {
       fclose($file);
       if ($_POST['status'] == "etudiant") header('Location: inscriptionEtudiant.php?erreur=alreadyExist');

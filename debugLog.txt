@@ -1,14 +1,16 @@
-Ajouter information: adresse...
-
 Inscription form verifier les input
 SET htmlspecialchar sur toute les entree
 
 DATE dans le csv au mauvais format
 
-ESPACE ETUDIANT VOIR SES CHOIX
-
-unlink reinisialiser
-
-AjoutEtudiant => Verifier les options entrer (en fonction des parcours)
-
 Réorganiser /php
+
+Notification: affectation
+
+Modification des affection par le responsable
+
+Signalement
+
+Suppression de compte
+
+README

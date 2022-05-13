@@ -39,6 +39,7 @@
   <head>
     <meta charset="utf-8">
     <title>Espace Etudiant</title>
+    <script type="text/javascript" src="../js/jquery-3.6.0.js"></script>
   </head>
   <body>
     <div class="block-nav">
@@ -80,5 +81,6 @@
           </form>
         </div>
       </div>
+      <script type="text/javascript" src="../js/getNotification.js"></script>
   </body>
 </html>

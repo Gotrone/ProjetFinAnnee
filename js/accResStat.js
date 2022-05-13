@@ -6,7 +6,6 @@ function affichageStat(value){
     type: "POST",
     data: {"option": value},
     success: function(result){
-        console.log('Reponse:');
         message.innerHTML = result;
       }
     });

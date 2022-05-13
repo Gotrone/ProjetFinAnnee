@@ -1,5 +1,4 @@
-id;choix 1;choix 2;choix 3;choix 4;choix 5;choix 6;choix 7;choix 8
-2;"IAC ";"HPDA ";"IAP ";"BI ";"VISUA ";"ICC ";"INEM ";CS
+id;"choix 1";"choix 2";"choix 3";"choix 4";"choix 5";"choix 6";"choix 7";"choix 8"
 3;"ICC ";"IAP ";"HPDA ";"IAC ";"VISUA ";"INEM ";"CS ";BI
 4;"IAC ";"BI ";"HPDA ";"IAP ";"ICC ";"CS ";"INEM ";VISUA
 5;"BI ";"IAC ";"CS ";"VISUA ";"ICC ";"INEM ";"HPDA ";IAP
@@ -208,3 +207,4 @@ id;choix 1;choix 2;choix 3;choix 4;choix 5;choix 6;choix 7;choix 8
 208;"IAC ";"CS ";"INEM ";"VISUA ";"BI ";"IAP ";"HPDA ";ICC
 209;"CS ";"INEM ";"IAC ";"IAP ";"VISUA ";"HPDA ";"ICC ";BI
 210;"CS ";"IAC ";"IAP ";"INEM ";"VISUA ";"ICC ";"BI ";HPDA
+2;BI;CS;HPDA;IAC;ICC;INEM;VISUA;IAP
