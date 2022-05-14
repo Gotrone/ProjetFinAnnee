@@ -212,3 +212,4 @@ id;nom;prenom;genre;dateNaissance;codePostal;telephone;parcours;ects;moyenne;log
 210;Fournier;Anouk;NULL;NULL;NULL;NULL;gsi;0;0;AnoukFournier@cy-tech.fr;$2y$10$ERQD0jbu.LLJ.vrw11GNm.XaEUha/Oy6fxTtjWjajne.mr8gmCENS;etudiant
 211;ds;ds;Homme;2022-05-03;1;1;gsi;1;1;Xess;$2y$10$Q3erD4FdoGTsgdH60BGSoORce1za2AW9YNGy4Ws2TV0FNM/CGlFtq;etudiant
 212;ds;ds;Homme;2022-05-12;1;1;gsi;2;3;2;$2y$10$2D66WdM15TBv/r8Yx4Rto..pMgMpbTsDH.Gs3dvOfsCCcr3VmfXvi;etudiant
+213;1;1;Homme;2022-05-24;1;1;NULL;NULL;NULL;3;$2y$10$.HB62mHhxnf3mhMiOT.cVutvJrKApgBWdP.S3EyOmx7c/u4dX4E9y;responsable

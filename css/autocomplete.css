@@ -1,0 +1,11 @@
+ul {
+  list-style: none;
+}
+.list {
+  background-color: #ffffff;
+}
+.list-items {
+}
+.list-items:hover {
+  background-color: #dddddd;
+}
