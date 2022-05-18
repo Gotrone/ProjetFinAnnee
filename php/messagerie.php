@@ -10,6 +10,7 @@
     <meta charset="utf-8">
     <title>Messagerie</title>
     <script type="text/javascript" src="../js/jquery-3.6.0.js"></script>
+    <link rel="stylesheet" href="../css/autocomplete.css">
   </head>
   <body>
     <div class="block-communication">
@@ -24,8 +25,12 @@
     </div>
     <div class="block-contact">
       <div class="head-contact">
-        <input type="text" id="ajoutContact">
+        <div class="autocomplete" style="width:300px;">
+          <input class="input-autocomplete" type="text" id="ajoutContact" placeholder="Entrer un login..." onkeyup="autocompleteLogin(this, 0)">
+        </div>
+        <ul class="login-suggestion"></ul>
         <button type="button" name="buttonAjoutContact" onclick="addContact()">Ajouter</button>
+        <script type="text/javascript" src="../js/autocomplete.js"></script>
       </div>
       <div class="body-contact" id="body-contact"></div>
       <span id="message-debug"></span>
