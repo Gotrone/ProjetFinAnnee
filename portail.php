@@ -3,10 +3,47 @@
   <head>
     <meta charset="utf-8">
     <title>Portail de connexion</title>
+    <link rel="stylesheet" type="text/css" href="portail.css"/>
+    <script src="portail.js"></script>
   </head>
   <body>
+
+      <div class="nav-bar">
+
+        <div id="deco-menu-1"></div>
+        <div id="deco-menu-2"></div>
+        <div id="deco-menu-3"></div>
+
+        <div class="button" id="home-button" 
+          onmouseover="SelectedColor('home-button')"
+          onmouseout="DefaultColor('home-button')">
+          Acceuil
+        </div>
+        <div class="button" id="connexion-button"
+          onmouseover="SelectedColor('connexion-button')"
+          onmouseout="DefaultColor('connexion-button')">
+          <a href="portail.php" style="text-decoration: none; color: inherit;">
+          Connexion
+        </div>
+        <div class="button" id="inscrit-e-button"
+          onmouseover="SelectedColor('inscrit-e-button')"
+          onmouseout="DefaultColor('inscrit-e-button')">
+          <a href="php/inscriptionEtudiant.php" style="text-decoration: none; color: inherit;">
+          Inscription Etudiant
+        </div>
+        <div class="button" id="inscrit-r-button"
+          onmouseover="SelectedColor('inscrit-r-button')"
+          onmouseout="DefaultColor('inscrit-r-button')">
+          <a href="php/inscriptionRA.php" style="text-decoration: none; color: inherit;">
+          Inscription Responsable
+        </div>
+        <div class="button" id="a-propos">
+          A propos
+        </div>
+      </div>
+
       <div class="main-portail">
-        <h1>Portail de Connexion</h1>
+        <h1 id="title">Portail de Connexion</h1>
         <div class="portail-connexion">
           <?php
             if (isset($_GET['erreur'])) {
@@ -18,9 +55,15 @@
             }
           ?>
           <form action="php/verificationConnexion.php" method="post">
-            <label>Login</label><input type="text" name="login" required>
-            <label>Mot de passe</label><input type="password" name="password" required>
-            <input type="submit" name="submit" value="Valider">
+            <div class="button-connect" id="inscrit-r-button">
+              Inscription Responsable
+            </div>
+            <input id="login-input" type="text" value="login" name="login" required>
+            <div class="button-connect" id="inscrit-r-button">
+              Inscription Responsable
+            </div>
+            <input id="pswd-input" type="password" name="password" required>
+            <input id="confirm" type="submit" name="submit" value="Valider">
           </form>
         </div>
         <div class="portail-inscription">
